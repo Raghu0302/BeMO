@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# kanban-board
+A kanban board is an project management tool designed to help visualize work, limit work-in-progress, and maximize efficiency (or flow). Kanban boards use cards, columns, and continuous improvement to help technology and service teams commit to the right amount of work, and get it done!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to use this board
+Story can be created by clicking on Add (+) which will sit in Story column<br />
+Board can be cleared by clicking on Reset<br />
+Add new columns by using the Add columns button
 
-## Available Scripts
+---
+## Requirements
 
-In the project directory, you can run:
+For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
-### `npm start`
+### Node
+- #### Node installation on Windows
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- #### Node installation on Ubuntu
 
-### `npm test`
+  You can install nodejs and npm easily with apt install, just run the following commands.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+      $ sudo apt install nodejs
+      $ sudo apt install npm
 
-### `npm run build`
+- #### Other Operating Systems
+  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If the installation was successful, you should be able to run the following command.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    $ node --version
+    v14.17.3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    $ npm --version
+    6.14.13
 
-### `npm run eject`
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    $ npm install npm -g
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###
+### Yarn installation
+  After installing node, this project will need yarn too, so just run the following command.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      $ npm install -g yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+To get a local copy up and running follow these simple steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
+ 
+1. Clone the repo
+```sh
+git clone https://github.com/Raghu0302/Kanban-Board.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Start Website
+```sh
+npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+Raghavendra Medishetty -  - mraghavendra0302@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Project Link: [-----------------](https://github.com/Raghu0302/Kanban-Board.git)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
